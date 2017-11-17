@@ -1,0 +1,19 @@
+{
+  "name": "dockyard",
+  "version": "1.0.0",
+  "description": "We are mainly testing your skills in Javascript and PHP in a typical web development setting. What we will assess is the following:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlr87/sjsDockyard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlr87/sjsDockyard/issues"
+  },
+  "homepage": "https://github.com/tlr87/sjsDockyard#readme"
+}
