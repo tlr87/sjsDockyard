@@ -4,7 +4,7 @@
   "description": "We are mainly testing your skills in Javascript and PHP in a typical web development setting. What we will assess is the following:",
   "main": "index.js",
   "scripts": {
-    "dev": "json-server --watch db.json & webpack --watch",
+    "dev": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,8 +30,6 @@
     "express": "^4.14.0",
     "jsdom": "^11.0.0",
     "jsx-loader": "^0.13.2",
-    "knex": "^0.13.0",
-    "pg": "^6.2.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.5",
