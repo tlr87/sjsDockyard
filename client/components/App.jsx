@@ -25,14 +25,12 @@ export default class App extends React.Component {
 
   render() {
     let {err, data} = this.state
-    const renderDataItem = (dataItem, key) => <h3 key={key}>{dataItem.name}</h3>
-    const renderDataList = (dataList) => dataList.map(renderDataItem)
+    const renderData = (dataItem, key) => <div key={key}><h3>{dataItem.name}</h3><img src={dataItem.photo} alt="Mountain View" width="350" height="150"></img></div>
+    const renderDataList = (dataList) => dataList.map(renderData)
      return (
     <div>
-      <h1>Hello, world</h1>
-
-          There is data: {renderDataList(data)}
-
+      <h1>Docky McDockFace Dockyards</h1>
+          Boats in shop: {renderDataList(data)}
     </div>
     )
   }
