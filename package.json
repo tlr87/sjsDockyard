@@ -5,13 +5,21 @@
   "main": "index.js",
   "scripts": {
     "dev": "json-server --watch db.json",
+    "devc": "concurrently \"json-server --watch db.json\" \"webpack --watch\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tlr87/sjsDockyard.git"
+
   },
-  "author": "",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "author": "Tom",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tlr87/sjsDockyard/issues"
