@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import App from './components/App'
 
-const element = <h1>Hello, world</h1>;
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    element,
+    <App />,
     document.getElementById('app')
 )
 })
