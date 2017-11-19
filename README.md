@@ -5,6 +5,7 @@
  ## How to install
 
  1. Make sure NodeJS and a shell client  is installed on your computer .
- 2. In the shell simply type "npm install".
- 3. To fire up the server type "npm run devc" in the shell.
- 4. Go to your browser and type localhost:3000 as your url.
+ 2. Clone this repo to a directory of your choosing.  
+ 3. In the shell simply type "npm install".
+ 4. To fire up the server type "npm run devc" in the shell.
+ 5. Go to your browser and type localhost:3000 as your url.
